@@ -1,0 +1,54 @@
+baseurl = "https://raditya.jayawardana.my.id"
+title = "Raditya"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Raditya Jayawardana"
+  info = "Junior BackEnd Developer"
+  description = "John Doe's personal website"
+  keywords = "developer,personal"
+  avatarurl = "https://github.com/radityajayawardana.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/radityajayawardana/"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa-brands fa-mastodon fa-2x"
+  weight = 2
+  url = "https://fosstodon.org/@raditya"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
+  weight = 3
+  url = "https://t.me/radityajayawardana"
